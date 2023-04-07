@@ -5,7 +5,7 @@ metadata:
   name: my-app
   namespace: argocd
   annotations:
-    argocd-image-updater.argoproj.io/image-list: gabrielmonesruiz/nginx:~v1.1
+    argocd-image-updater.argoproj.io/image-list: gabrielmonesruiz/appgrupo3:~v1.1
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:

@@ -2,21 +2,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
+  name: appgrupo3-deployment
   labels:
-    app: nginx
+    app: appgrupo3
 spec:
   selector:
     matchLabels:
-      app: nginx
+      app: appgrupo3
   template:
     metadata:
       labels:
-        app: nginx
+        app: appgrupo3
     spec:
       containers:
-        - name: nginx
+        - name: appgrupo3
           imagePullPolicy: Always
-          image: gabrielmonesruiz/nginx
+          image: gabrielmonesruiz/appgrupo3
           ports:
             - containerPort: 80
