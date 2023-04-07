@@ -4,7 +4,7 @@ replicas:
   - name: nginx-deployment
     count: 2
 images:
-  - name: gabrielmonesruiz/appgrupo3
+  - name: gabrielmonesruiz/nginx
     newTag: v1.1.0
 resources:
   - ../../../my-app-base
