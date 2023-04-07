@@ -11,7 +11,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: ssh://git@github.com/GabrielMR1974/CICDtest.git
+    repoURL: https://github.com/GabrielMR1974/CICDtest.git
     targetRevision: main
     path: environments/staging/my-app
   destination:
