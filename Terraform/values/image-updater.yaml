@@ -9,6 +9,7 @@ config:
   registries:
     - name: Docker Hub
       api_url: https://registry-1.docker.io
+      insecure: true
       ping: yes
       limit: 20
       default: true
